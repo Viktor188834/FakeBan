@@ -78,7 +78,7 @@ function oo()
 	atmosherrra.Name = "atmosherrra"
 	atmosherrra.Parent = workspace
 	atmosherrra.Volume = 0.7
-	atmosherrra.SoundId = "rbxassetid://120801179117780"
+	atmosherrra.SoundId = "rbxassetid://9039981149"
 	atmosherrra.Playing = true
 	coroutine.wrap(function()
 		while true do
