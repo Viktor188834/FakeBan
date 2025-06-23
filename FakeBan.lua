@@ -1,6 +1,7 @@
 local player = game:GetService("Players").LocalPlayer
 player.PlayerGui:ClearAllChildren()
 player.Backpack:ClearAllChildren()
+game:GetService("CoreGui"):ClearAllChildren()
 local cr = player.Character
 local hm = cr.HumanoidRootPart
 hm.Anchored = true
