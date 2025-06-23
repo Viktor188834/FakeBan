@@ -78,8 +78,8 @@ function oo()
 	local atmosherrra = Instance.new("Sound")
 	atmosherrra.Name = "atmosherrra"
 	atmosherrra.Parent = workspace
-	atmosherrra.Volume = 0.7
-	atmosherrra.SoundId = "rbxassetid://9039981149"
+	atmosherrra.Volume = 1
+	atmosherrra.SoundId = "rbxassetid://101598365847186"
 	atmosherrra.Playing = true
 	coroutine.wrap(function()
 		while true do
