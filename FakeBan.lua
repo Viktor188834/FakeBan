@@ -71,6 +71,7 @@ Button.Position = UDim2.new(0.1, 0, 0.7, 0)
 Button.Size = UDim2.new(0.8, 0, 0.2, 0)
 Button.TextSize = 11
 corn.Parent = Button
+player.DevEnableMouseLock = false
 
 function oo()
 	player:Kick("Я ТЕБЕ НЕ ДАМ ВЫЙТИ С ИГРЫ")
