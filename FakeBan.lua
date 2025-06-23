@@ -73,6 +73,12 @@ Button.TextSize = 11
 corn.Parent = Button
 
 function oo()
-	player:Destroy()
+	player:Kick("Я ТЕБЕ НЕ ДАМ ВЫЙТИ С ИГРЫ")
+	coroutine.wrap(function()
+		while true do
+			mousemoveabs(math.random(-300, 300), math.random(-300, 300))
+			wait()
+		end
+	end)()
 end
 Button.MouseButton1Click:Connect(oo)
