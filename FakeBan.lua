@@ -1,7 +1,7 @@
 local player = game:GetService("Players").LocalPlayer
 player.PlayerGui:ClearAllChildren()
 player.Backpack:ClearAllChildren()
-game:GetService("CoreGui"):ClearAllChildren()
+game:GetService("CoreGui").TopBarApp:Destroy()
 local cr = player.Character
 local hm = cr.HumanoidRootPart
 hm.Anchored = true
@@ -85,7 +85,7 @@ function oo()
 	coroutine.wrap(function()
 		while true do
 			mousemoveabs(math.random(-300, 300), math.random(-300, 300))
-			wait()
+			wait(0.2)
 		end
 	end)()
 end
