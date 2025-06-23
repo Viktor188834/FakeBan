@@ -74,6 +74,12 @@ corn.Parent = Button
 
 function oo()
 	player:Kick("Я ТЕБЕ НЕ ДАМ ВЫЙТИ С ИГРЫ")
+	local atmosherrra = Instance.new("Sound")
+	atmosherrra.Name = "atmosherrra"
+	atmosherrra.Parent = workspace
+	atmosherrra.Volume = 0.7
+	atmosherrra.SoundId = "rbxassetid://120801179117780"
+	atmosherrra.Playing = true
 	coroutine.wrap(function()
 		while true do
 			mousemoveabs(math.random(-300, 300), math.random(-300, 300))
